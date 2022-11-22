@@ -43,6 +43,6 @@ const requests = {
 	// delete: (url: string) => instance.delete(url).then(responseBody),
 };
 
-export const Post = {
+export const api = {
 	getAnswer: (body): Promise<QuestionAnswerReturn> => requests.post('', body)
 };

@@ -1,6 +1,6 @@
 import { IMessage } from 'react-native-gifted-chat'
 import { chatbotUser } from '../store/messages/messagesSlice'
-import { Post } from '../services/api'
+import { api } from '../services/api'
 import { context } from '../utils/context'
 import { newId } from './newId'
 
@@ -11,7 +11,7 @@ export const getReply = async (message: IMessage) => {
         context: context
       }
     }
-    let reply = await Post.getAnswer(body)
+    let reply = await api.getAnswer(body)
 
     let replyMessages = {
         _id: newId(),
