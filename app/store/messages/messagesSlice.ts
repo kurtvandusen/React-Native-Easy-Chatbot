@@ -1,6 +1,6 @@
 import { createSlice, createAction, ActionCreatorWithPayload } from '@reduxjs/toolkit'
 import type { PayloadAction } from '@reduxjs/toolkit'
-import { User, IMessage } from 'react-native-gifted-chat'
+import { GiftedChat, User, IMessage } from 'react-native-gifted-chat'
 
 export interface MessagesState {
   messages: Array<IMessage>,
@@ -25,7 +25,10 @@ export const messagesSlice = createSlice({
   initialState,
   reducers: {
     setMessages: (state, action: PayloadAction<IMessage>) => {
-      state.push(action.payload)
+      console.log("saga", state)
+      let newState = GiftedChat.append( state, [action.payload] )
+      console.log("saga new", newState)
+      return newState
     },
   },
 })
