@@ -1,4 +1,5 @@
 import React, { useCallback } from 'react'
+import { StyleSheet, SafeAreaView } from "react-native"
 import { GiftedChat } from 'react-native-gifted-chat'
 import { useSelector, useDispatch } from 'react-redux'
 import { sendMessage, MessagesState, defaultUser } from '../store/messages/messagesSlice'
@@ -14,11 +15,19 @@ export default function Main() {
       }, [])
 
     return (
+        <SafeAreaView style={styles.container} >
         <GiftedChat
             messages={messages}
             onSend={onSend}
             user={defaultUser}
             placeholder={placeholder}
         />
+        </SafeAreaView>
     )
 }
+
+const styles = StyleSheet.create({
+    container: {
+        flex: 1
+    }
+  })
