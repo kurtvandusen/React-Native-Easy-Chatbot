@@ -1,5 +1,5 @@
 import React, { useCallback } from 'react'
-import { GiftedChat, IMessage } from 'react-native-gifted-chat'
+import { GiftedChat } from 'react-native-gifted-chat'
 import { useSelector, useDispatch } from 'react-redux'
 import { sendMessage, MessagesState, defaultUser } from '../store/messages/messagesSlice'
 
