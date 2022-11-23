@@ -1,4 +1,6 @@
-{
+import 'dotenv/config'
+
+export default {
   "expo": {
     "name": "Easy-Chatbot",
     "slug": "Easy-Chatbot",
@@ -28,6 +30,10 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      huggingfaceKey: process.env.HUGGINGFACE_KEY ?? "getYourFreeKeyForUnlimitedCalls",
+      baseURL: "https://api-inference.huggingface.co/models/deepset/tinyroberta-squad2"
     }
   }
 }

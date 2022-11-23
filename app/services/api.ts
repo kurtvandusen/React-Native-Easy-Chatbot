@@ -1,4 +1,5 @@
 import axios, { AxiosResponse } from "axios";
+import Constants from "expo-constants";
 
 export interface QuestionAnswerArgs {
   inputs: {
@@ -27,9 +28,9 @@ export interface QuestionAnswerReturn  {
 }
 
 const instance = axios.create({
-  baseURL: "https://api-inference.huggingface.co/models/deepset/tinyroberta-squad2",
+  baseURL: Constants.expoConfig.extra.baseURL,
   headers: {
-    "Authorization": "Bearer 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",
+    "Authorization": "Bearer " + Constants.expoConfig.extra.huggingfaceKey,
     timeout: 20000, // 20 seconds
   }
 });
