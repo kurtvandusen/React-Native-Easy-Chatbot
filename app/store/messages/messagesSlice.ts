@@ -9,13 +9,13 @@ export interface MessagesState {
 export const defaultUser: User = {
   _id: 0,
   name: "User",
-  avatar: "../../../assets/1F600_color.png"
+  avatar: "https://gravatar.com/avatar?d=wavatar"
 }
 
 export const chatbotUser: User = {
   _id: 1,
   name: "Chatbot",
-  avatar: "../../../assets/1F917_color.png"
+  avatar: "https://gravatar.com/avatar?d=robohash"
 }
 
 const initialState: Array<IMessage> = []
