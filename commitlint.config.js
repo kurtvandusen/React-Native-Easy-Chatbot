@@ -1,6 +1,4 @@
 module.exports = {
-    extends: ['@commitlint/config-conventional'],
-    ignores: [
-        (message) => message.includes('https://')
-    ]
-}
+  extends: ["@commitlint/config-conventional"],
+  ignores: [(message) => message.includes("https://")],
+};

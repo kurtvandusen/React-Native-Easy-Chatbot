@@ -1,24 +1,25 @@
-import { IMessage } from 'react-native-gifted-chat'
-import { chatbotUser } from '../store/messages/messagesSlice'
-import { api } from '../services/api'
-import { context } from '../utils/context'
-import { newId } from './newId'
+import { IMessage } from "react-native-gifted-chat";
+
+import { api } from "../services/api";
+import { chatbotUser } from "../store/messages/messagesSlice";
+import { context } from "../utils/context";
+import { newId } from "./newId";
 
 export const getReply = async (message: IMessage) => {
-    let body = {
-      inputs:{
-        question: message.text,
-        context: context
-      }
-    }
-    let reply = await api.getAnswer(body)
+  const body = {
+    inputs: {
+      question: message.text,
+      context,
+    },
+  };
+  const reply = await api.getAnswer(body);
 
-    let replyMessages: IMessage = {
-        _id: newId(),
-        text: reply.answer,
-        createdAt: new Date(),
-        user: chatbotUser
-      }
+  const replyMessages: IMessage = {
+    _id: newId(),
+    text: reply.answer,
+    createdAt: new Date(),
+    user: chatbotUser,
+  };
 
-      return replyMessages
-  }
+  return replyMessages;
+};

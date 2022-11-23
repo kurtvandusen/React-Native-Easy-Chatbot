@@ -280,4 +280,4 @@ and make their eyes bright and eager with many a strange tale,
 perhaps even with the dream of Wonderland of long ago: and how she
 would feel with all their simple sorrows, and find a pleasure in all
 their simple joys, remembering her own child-life, and the happy summer
-days.`
+days.`;

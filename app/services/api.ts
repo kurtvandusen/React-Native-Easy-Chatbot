@@ -6,9 +6,9 @@ export interface QuestionAnswerArgs {
     question: string;
     context: string;
   };
-};
+}
 
-export interface QuestionAnswerReturn  {
+export interface QuestionAnswerReturn {
   /**
    * A string that’s the answer within the text.
    */
@@ -30,43 +30,46 @@ export interface QuestionAnswerReturn  {
 const instance = axios.create({
   baseURL: Constants.expoConfig.extra.baseURL,
   headers: {
-    "Authorization": "Bearer " + Constants.expoConfig.extra.huggingfaceKey,
+    Authorization: "Bearer " + Constants.expoConfig.extra.huggingfaceKey,
     timeout: 20000, // 20 seconds
-  }
+  },
 });
 
 const responseBody = (response: AxiosResponse) => response.data;
 
-const handleError = (error) => console.log("API Error:", error)
+const handleError = (error) => console.log("API Error:", error);
 
 const handlePostError = (error) => {
-  handleError(error)
-  let defaultResponse: QuestionAnswerReturn = {
+  handleError(error);
+  const defaultResponse: QuestionAnswerReturn = {
     answer: `I don't know. My API feels fuzzy.`,
-    score: .5,
+    score: 0.5,
     start: 0,
     end: 0,
-  }
-  return defaultResponse
-}
+  };
+  return defaultResponse;
+};
 
 const requests = {
-	// get: (url: string) => instance.get(url).then(responseBody.catch(handleError),
-	post: (url: string, body: QuestionAnswerArgs) => instance.post(url, body).then(responseBody).catch(handlePostError),
-	// put: (url: string, body: {}) => instance.put(url, body).then(responseBody).catch(handleError),
-	// delete: (url: string) => instance.delete(url).then(responseBody).catch(handleError),
+  // get: (url: string) => instance.get(url).then(responseBody.catch(handleError),
+  post: (url: string, body: QuestionAnswerArgs) =>
+    instance.post(url, body).then(responseBody).catch(handlePostError),
+  // put: (url: string, body: {}) => instance.put(url, body).then(responseBody).catch(handleError),
+  // delete: (url: string) => instance.delete(url).then(responseBody).catch(handleError),
 };
 
 export const api = {
-	getAnswer: (body): Promise<QuestionAnswerReturn> => requests.post('', body)
+  getAnswer: (body): Promise<QuestionAnswerReturn> => requests.post("", body),
 };
 
- 
-axios.get('Web URL')
-.then(function(response) {
+axios
+  .get("Web URL")
+  .then(function (response) {
     // handle response
-}).catch(function(error) {
+  })
+  .catch(function (error) {
     // handle error
-}).finally(function() {
+  })
+  .finally(function () {
     // always executes at the last of any API call
-});
+  });

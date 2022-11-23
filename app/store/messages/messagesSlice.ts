@@ -1,39 +1,44 @@
-import { createSlice, createAction, ActionCreatorWithPayload } from '@reduxjs/toolkit'
-import type { PayloadAction } from '@reduxjs/toolkit'
-import { GiftedChat, User, IMessage } from 'react-native-gifted-chat'
+import {
+  createSlice,
+  createAction,
+  ActionCreatorWithPayload,
+} from "@reduxjs/toolkit";
+import type { PayloadAction } from "@reduxjs/toolkit";
+import { GiftedChat, User, IMessage } from "react-native-gifted-chat";
 
 export interface MessagesState {
-  messages: Array<IMessage>,
+  messages: IMessage[];
 }
 
 export const defaultUser: User = {
   _id: 0,
   name: "User",
-  avatar: "https://gravatar.com/avatar?d=wavatar"
-}
+  avatar: "https://gravatar.com/avatar?d=wavatar",
+};
 
 export const chatbotUser: User = {
   _id: 1,
   name: "Chatbot",
-  avatar: "https://gravatar.com/avatar?d=robohash"
-}
+  avatar: "https://gravatar.com/avatar?d=robohash",
+};
 
-const initialState: Array<IMessage> = []
+const initialState: IMessage[] = [];
 
 export const messagesSlice = createSlice({
-  name: 'messages',
+  name: "messages",
   initialState,
   reducers: {
     setMessages: (state, action: PayloadAction<IMessage>) => {
-      let newState = GiftedChat.append( state, [action.payload] )
-      return newState
+      const newState = GiftedChat.append(state, [action.payload]);
+      return newState;
     },
   },
-})
+});
 
-export const sendMessage: ActionCreatorWithPayload<IMessage[]> = createAction('SEND_MESSAGE')
+export const sendMessage: ActionCreatorWithPayload<IMessage[]> =
+  createAction("SEND_MESSAGE");
 
 // Action creators are generated for each case reducer function
-export const { setMessages } = messagesSlice.actions
+export const { setMessages } = messagesSlice.actions;
 
-export default messagesSlice.reducer
+export default messagesSlice.reducer;
