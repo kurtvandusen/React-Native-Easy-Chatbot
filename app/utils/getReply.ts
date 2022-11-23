@@ -13,7 +13,7 @@ export const getReply = async (message: IMessage) => {
     }
     let reply = await api.getAnswer(body)
 
-    let replyMessages = {
+    let replyMessages: IMessage = {
         _id: newId(),
         text: reply.answer,
         createdAt: new Date(),
