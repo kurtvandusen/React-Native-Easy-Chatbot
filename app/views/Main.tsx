@@ -3,6 +3,8 @@ import { GiftedChat } from 'react-native-gifted-chat'
 import { useSelector, useDispatch } from 'react-redux'
 import { sendMessage, MessagesState, defaultUser } from '../store/messages/messagesSlice'
 
+const placeholder = 'Chat with Alice in Wonderland...'
+
 export default function Main() {
     const dispatch = useDispatch()   
     const messages = useSelector((state: MessagesState) => state.messages)
@@ -16,6 +18,7 @@ export default function Main() {
             messages={messages}
             onSend={onSend}
             user={defaultUser}
+            placeholder={placeholder}
         />
     )
 }
