@@ -1,12 +1,12 @@
-name: Expo EAS Production Update
+name: Production Test, Lint, and Release
 
 on:
   push:
     branches:
-      - production
+      - main
 
 jobs:
-  update:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: 🏗 Setup repo
@@ -20,22 +20,21 @@ jobs:
           node-version: 16
           cache: 'npm'
 
-      - name: 🏗 Setup Expo
-        uses: expo/expo-github-action@v7
-        with:
-          eas-version: latest
-          token: ${{ secrets.EXPO_TOKEN }}
-          
       - name: Install dependencies
         run: npm ci
 
       - name: Install semantic-release extra plugins
         run: npm install --save-dev @semantic-release/changelog @semantic-release/git
 
+      - name: Format and Lint
+        run: |
+          npm run format
+          npm run lint
+
+      - name: Test with Jest
+        run: npm run test
+
       - name: Bump Version and Release on Github
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npx semantic-release
-
-      - name: Update Production with EAS
-        run: eas update --auto --branch production --non-interactive
