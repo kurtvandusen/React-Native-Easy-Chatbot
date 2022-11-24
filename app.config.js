@@ -1,10 +1,11 @@
 import "dotenv/config";
+import * as pkg from "./package.json";
 
 export default {
   expo: {
     name: "Easy-Chatbot",
     slug: "Easy-Chatbot",
-    version: "1.0.0",
+    version: pkg.version,
     orientation: "portrait",
     icon: "./assets/icon.png",
     userInterfaceStyle: "light",
