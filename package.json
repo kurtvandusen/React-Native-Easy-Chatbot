@@ -1,6 +1,6 @@
 {
   "name": "easy-chatbot",
-  "version": "1.0.0",
+  "version": "1.0.0-staging.2",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
@@ -9,7 +9,9 @@
     "web": "expo start --web",
     "prepare": "husky install",
     "test": "jest",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "format": "prettier --write \"app/**/*.{js,jsx,json,md,ts,tsx}\"",
+    "lint": "eslint App.js app --fix --ext .js,.ts,.tsx && npm run format"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.0",
@@ -40,6 +42,8 @@
     "eslint": "^8.28.0",
     "eslint-config-universe": "^11.1.1",
     "husky": "^8.0.2",
+    "jest": "^27.5.1",
+    "jest-expo": "^47.0.1",
     "prettier": "^2.8.0",
     "semantic-release": "^19.0.5"
   },

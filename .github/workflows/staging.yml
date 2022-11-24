@@ -1,0 +1,40 @@
+name: Staging Test, Lint, and Release
+
+on:
+  push:
+    branches:
+      - staging
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🏗 Setup repo
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: "0"
+
+      - name: 🏗 Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install semantic-release extra plugins
+        run: npm install --save-dev @semantic-release/changelog @semantic-release/git
+
+      - name: Format and Lint
+        run: |
+          npm run format
+          npm run lint
+
+    #  - name: Test with Jest
+    #    run: npm run test
+
+      - name: Bump Version and Release on Github
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npx semantic-release

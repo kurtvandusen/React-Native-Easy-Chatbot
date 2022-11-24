@@ -1,5 +1,37 @@
-import axios, { AxiosResponse } from "axios";
+import axios, { AxiosResponse, AxiosError } from "axios";
 import Constants from "expo-constants";
+
+interface IErrorBase<T> {
+  error: Error | AxiosError<T>;
+  type: "axios-error" | "stock-error";
+}
+
+interface IAxiosError<T> extends IErrorBase<T> {
+  error: AxiosError<T>;
+  type: "axios-error";
+}
+interface IStockError<T> extends IErrorBase<T> {
+  error: Error;
+  type: "stock-error";
+}
+
+export function axiosErrorHandler<T>(
+  callback: (err: IAxiosError<T> | IStockError<T>) => void
+) {
+  return (error: Error | AxiosError<T>) => {
+    if (axios.isAxiosError(error)) {
+      callback({
+        error,
+        type: "axios-error",
+      });
+    } else {
+      callback({
+        error,
+        type: "stock-error",
+      });
+    }
+  };
+}
 
 export interface QuestionAnswerArgs {
   inputs: {
@@ -37,9 +69,10 @@ const instance = axios.create({
 
 const responseBody = (response: AxiosResponse) => response.data;
 
-const handleError = (error) => console.log("API Error:", error);
+const handleError = (error: Error | AxiosError) =>
+  console.log("API Error:", error);
 
-const handlePostError = (error) => {
+const handlePostError = (error: Error | AxiosError) => {
   handleError(error);
   const defaultResponse: QuestionAnswerReturn = {
     answer: `I don't know. My API feels fuzzy.`,
