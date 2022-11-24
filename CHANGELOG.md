@@ -1,3 +1,10 @@
+# [1.0.0-staging.3](https://github.com/kurtvandusen/React-Native-Easy-Chatbot/compare/v1.0.0-staging.2...v1.0.0-staging.3) (2022-11-24)
+
+
+### Features
+
+* add axios-retry ([b6b6418](https://github.com/kurtvandusen/React-Native-Easy-Chatbot/commit/b6b641830dab877e503e7ae80b0bb63822c292bb))
+
 # [1.0.0-staging.2](https://github.com/kurtvandusen/React-Native-Easy-Chatbot/compare/v1.0.0-staging.1...v1.0.0-staging.2) (2022-11-24)
 
 
