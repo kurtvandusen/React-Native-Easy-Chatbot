@@ -1,3 +1,10 @@
+# [1.0.0-staging.2](https://github.com/kurtvandusen/React-Native-Easy-Chatbot/compare/v1.0.0-staging.1...v1.0.0-staging.2) (2022-11-24)
+
+
+### Bug Fixes
+
+* delete files in wrong directory ([2ece434](https://github.com/kurtvandusen/React-Native-Easy-Chatbot/commit/2ece434ff3ff81d9bf79177f7388f533b96f6bd6))
+
 # 1.0.0-staging.1 (2022-11-24)
 
 
