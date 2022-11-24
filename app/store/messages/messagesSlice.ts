@@ -8,6 +8,7 @@ import { GiftedChat, User, IMessage } from "react-native-gifted-chat";
 
 export interface MessagesState {
   messages: IMessage[];
+  isTyping: boolean;
 }
 
 export const defaultUser: User = {
@@ -22,15 +23,21 @@ export const chatbotUser: User = {
   avatar: "https://gravatar.com/avatar?d=robohash",
 };
 
-const initialState: IMessage[] = [];
+const initialState: MessagesState = {
+  messages: [],
+  isTyping: false,
+};
 
 export const messagesSlice = createSlice({
   name: "messages",
   initialState,
   reducers: {
-    setMessages: (state, action: PayloadAction<IMessage>) => {
-      const newState = GiftedChat.append(state, [action.payload]);
-      return newState;
+    setMessages: (state: MessagesState, action: PayloadAction<IMessage>) => {
+      const newState = GiftedChat.append(state.messages, [action.payload]);
+      state.messages = newState;
+    },
+    setIsTyping: (state: MessagesState, action: PayloadAction<boolean>) => {
+      state.isTyping = action.payload;
     },
   },
 });
@@ -39,6 +46,6 @@ export const sendMessage: ActionCreatorWithPayload<IMessage[]> =
   createAction("SEND_MESSAGE");
 
 // Action creators are generated for each case reducer function
-export const { setMessages } = messagesSlice.actions;
+export const { setMessages, setIsTyping } = messagesSlice.actions;
 
 export default messagesSlice.reducer;
