@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/kurtvandusen/React-Native-Easy-Chatbot/compare/v1.1.0...v1.2.0) (2022-11-24)
+
+
+### Features
+
+* add isTyping to chat ([21cecfe](https://github.com/kurtvandusen/React-Native-Easy-Chatbot/commit/21cecfe8f2529b84e80c4c86ec277bbe79cfaa56))
+
 # [1.2.0-staging.1](https://github.com/kurtvandusen/React-Native-Easy-Chatbot/compare/v1.1.0...v1.2.0-staging.1) (2022-11-24)
 
 
