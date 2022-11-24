@@ -31,8 +31,8 @@ jobs:
           npm run format
           npm run lint
 
-      - name: Test with Jest
-        run: npm run test
+    #  - name: Test with Jest
+    #    run: npm run test
 
       - name: Bump Version and Release on Github
         env:
