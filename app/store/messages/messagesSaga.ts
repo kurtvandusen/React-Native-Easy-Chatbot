@@ -1,7 +1,7 @@
 import { all, put, takeEvery } from "redux-saga/effects";
 
 import { getReply } from "../../utils/getReply";
-import { setMessages, sendMessage, setIsTyping} from "./messagesSlice";
+import { setMessages, sendMessage, setIsTyping } from "./messagesSlice";
 
 // Our worker Sagas
 function* sendMessageStart({ payload: message }) {
