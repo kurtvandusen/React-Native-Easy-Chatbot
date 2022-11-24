@@ -1,13 +1,15 @@
 import { all, put, takeEvery } from "redux-saga/effects";
 
 import { getReply } from "../../utils/getReply";
-import { setMessages, sendMessage } from "./messagesSlice";
+import { setMessages, sendMessage, setIsTyping} from "./messagesSlice";
 
 // Our worker Sagas
 function* sendMessageStart({ payload: message }) {
+  yield put({ type: setIsTyping, payload: true });
   yield put({ type: setMessages, payload: message });
   const replyMessages = yield getReply(message);
   yield put({ type: setMessages, payload: replyMessages });
+  yield put({ type: setIsTyping, payload: false });
 }
 
 // Our watcher Sagas

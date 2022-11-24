@@ -2,14 +2,14 @@ import { IMessage } from "react-native-gifted-chat";
 
 import { api } from "../services/api";
 import { chatbotUser } from "../store/messages/messagesSlice";
-import { text } from "../utils/text";
+import { context } from "./context";
 import { newId } from "./newId";
 
 export const getReply = async (message: IMessage) => {
   const body = {
     inputs: {
       question: message.text,
-      context: text,
+      context,
     },
     options: {
       wait_for_model: true,
