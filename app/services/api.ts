@@ -32,9 +32,9 @@ export interface QuestionAnswerReturn {
 }
 
 const instance = axios.create({
-  baseURL: Constants.expoConfig.extra.baseURL,
+  baseURL: Constants.expoConfig.extra?.baseURL ?? "",
   headers: {
-    Authorization: "Bearer " + Constants.expoConfig.extra.huggingfaceKey,
+    Authorization: "Bearer " + Constants.expoConfig.extra?.huggingfaceKey,
   },
   timeout: 20000, // 20 seconds
 });
