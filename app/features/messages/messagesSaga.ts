@@ -1,6 +1,6 @@
 import { all, put, takeEvery } from "redux-saga/effects";
 
-import { getReply } from "../../utils/getReply";
+import { getReply } from "./getReply";
 import { setMessages, sendMessage, setIsTyping } from "./messagesSlice";
 
 // Our worker Sagas
