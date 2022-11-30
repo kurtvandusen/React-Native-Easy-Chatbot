@@ -3,8 +3,8 @@ import { StyleSheet, SafeAreaView } from "react-native";
 import { GiftedChat } from "react-native-gifted-chat";
 import { useSelector, useDispatch } from "react-redux";
 
+import { sendMessage, defaultUser } from "../features/messages/messagesSlice";
 import { RootState } from "../store";
-import { sendMessage, defaultUser } from "../store/messages/messagesSlice";
 
 const placeholder = "Chat with Alice in Wonderland...";
 
