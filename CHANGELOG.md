@@ -1,3 +1,10 @@
+# [1.3.0-staging.1](https://github.com/kurtvandusen/React-Native-Easy-Chatbot/compare/v1.2.0...v1.3.0-staging.1) (2022-12-01)
+
+
+### Features
+
+* add textInputStyle props to Gifted Chat for background color ([1e72ee9](https://github.com/kurtvandusen/React-Native-Easy-Chatbot/commit/1e72ee94eee513bc9be6e21ef9aa016e8e6713c6))
+
 # [1.2.0](https://github.com/kurtvandusen/React-Native-Easy-Chatbot/compare/v1.1.0...v1.2.0) (2022-11-24)
 
 
