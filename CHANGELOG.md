@@ -1,3 +1,10 @@
+# [1.3.0-staging.4](https://github.com/kurtvandusen/React-Native-Easy-Chatbot/compare/v1.3.0-staging.3...v1.3.0-staging.4) (2022-12-03)
+
+
+### Bug Fixes
+
+* add try catch to API call in saga ([71f6a92](https://github.com/kurtvandusen/React-Native-Easy-Chatbot/commit/71f6a92de3898314e1283a2edd92354b09aeb003))
+
 # [1.3.0-staging.3](https://github.com/kurtvandusen/React-Native-Easy-Chatbot/compare/v1.3.0-staging.2...v1.3.0-staging.3) (2022-12-03)
 
 
