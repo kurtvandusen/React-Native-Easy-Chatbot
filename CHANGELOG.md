@@ -1,3 +1,11 @@
+# [1.3.0-staging.3](https://github.com/kurtvandusen/React-Native-Easy-Chatbot/compare/v1.3.0-staging.2...v1.3.0-staging.3) (2022-12-03)
+
+
+### Features
+
+* add axios validateStatus < 500 ([366d879](https://github.com/kurtvandusen/React-Native-Easy-Chatbot/commit/366d87916a255a9614cc8e78839b3038acf15b0a))
+* add react error boundary ([dee627e](https://github.com/kurtvandusen/React-Native-Easy-Chatbot/commit/dee627ed8b63f3d2c626605ca2143805371627d0))
+
 # [1.3.0-staging.2](https://github.com/kurtvandusen/React-Native-Easy-Chatbot/compare/v1.3.0-staging.1...v1.3.0-staging.2) (2022-12-03)
 
 
