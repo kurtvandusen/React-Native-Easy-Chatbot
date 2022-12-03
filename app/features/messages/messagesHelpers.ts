@@ -5,6 +5,16 @@ import { newId } from "../../utils/newId";
 import { context } from "./context";
 import { chatbotUser } from "./messagesSlice";
 
+export const createReplyMessage = (reply: string) => {
+  const replyMessage: IMessage = {
+    _id: newId(),
+    text: reply,
+    createdAt: new Date(),
+    user: chatbotUser,
+  };
+  return replyMessage;
+};
+
 export const getReply = async (message: IMessage) => {
   const body = {
     inputs: {
@@ -15,14 +25,7 @@ export const getReply = async (message: IMessage) => {
       wait_for_model: true,
     },
   };
-  const reply = await api.getAnswer(body);
+  const replyResponse = await api.getAnswer(body);
 
-  const replyMessages: IMessage = {
-    _id: newId(),
-    text: reply.answer,
-    createdAt: new Date(),
-    user: chatbotUser,
-  };
-
-  return replyMessages;
+  return createReplyMessage(replyResponse.answer);
 };
