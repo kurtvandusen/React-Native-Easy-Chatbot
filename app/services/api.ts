@@ -31,11 +31,14 @@ export interface QuestionAnswerReturn {
   end: number;
 }
 
+export const controller = new AbortController();
+
 const instance = axios.create({
   baseURL: Constants.expoConfig.extra?.baseURL ?? "",
   headers: {
     Authorization: "Bearer " + Constants.expoConfig.extra?.huggingfaceKey,
   },
+  signal: controller.signal,
   timeout: 20000, // 20 seconds
 });
 
