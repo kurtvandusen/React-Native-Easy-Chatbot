@@ -35,7 +35,8 @@ export default {
         process.env.HUGGINGFACE_KEY ?? "getYourFreeKeyForUnlimitedCalls",
       baseURL:
         "https://api-inference.huggingface.co/models/deepset/tinyroberta-squad2",
-      messagesPlaceholder: "Go ask Alice..."
+      messagesPlaceholder: "Go ask Alice...",
+      messagesErrorMessage: "Alice had an error. "
     },
   },
 };
