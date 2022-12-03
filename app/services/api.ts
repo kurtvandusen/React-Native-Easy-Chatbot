@@ -40,6 +40,9 @@ const instance = axios.create({
   },
   signal: controller.signal,
   timeout: 20000, // 20 seconds
+  validateStatus: function (status) {
+    return status < 500; // Resolve only if the status code is less than 500
+  }
 });
 
 const onRetry = (retryCount, error) => {
