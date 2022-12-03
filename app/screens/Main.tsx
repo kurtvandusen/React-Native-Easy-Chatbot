@@ -16,6 +16,6 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   textInputStyle: {
-    backgroundColor: '#FFFFF0'
-  }
+    backgroundColor: "#FFFFF0",
+  },
 });

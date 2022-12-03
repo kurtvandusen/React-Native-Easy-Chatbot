@@ -31,12 +31,18 @@ export interface QuestionAnswerReturn {
   end: number;
 }
 
+export const controller = new AbortController();
+
 const instance = axios.create({
   baseURL: Constants.expoConfig.extra?.baseURL ?? "",
   headers: {
     Authorization: "Bearer " + Constants.expoConfig.extra?.huggingfaceKey,
   },
+  signal: controller.signal,
   timeout: 20000, // 20 seconds
+  validateStatus(status) {
+    return status < 500; // Resolve only if the status code is less than 500
+  },
 });
 
 const onRetry = (retryCount, error) => {

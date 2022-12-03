@@ -1,3 +1,24 @@
+# [1.3.0-staging.3](https://github.com/kurtvandusen/React-Native-Easy-Chatbot/compare/v1.3.0-staging.2...v1.3.0-staging.3) (2022-12-03)
+
+
+### Features
+
+* add axios validateStatus < 500 ([366d879](https://github.com/kurtvandusen/React-Native-Easy-Chatbot/commit/366d87916a255a9614cc8e78839b3038acf15b0a))
+* add react error boundary ([dee627e](https://github.com/kurtvandusen/React-Native-Easy-Chatbot/commit/dee627ed8b63f3d2c626605ca2143805371627d0))
+
+# [1.3.0-staging.2](https://github.com/kurtvandusen/React-Native-Easy-Chatbot/compare/v1.3.0-staging.1...v1.3.0-staging.2) (2022-12-03)
+
+
+### Bug Fixes
+
+* only cancel API when MessagesComponent unmounts ([5b5b2ef](https://github.com/kurtvandusen/React-Native-Easy-Chatbot/commit/5b5b2ef5561c3d397a2c629d133fd87312784a83))
+
+
+### Features
+
+* add validateStatus for status code < 500 ([ce4a6ae](https://github.com/kurtvandusen/React-Native-Easy-Chatbot/commit/ce4a6ae3ce3c3e0202c2688069c29eb2aa3cbc96))
+* cancel API requests when components unmount ([6b99ac2](https://github.com/kurtvandusen/React-Native-Easy-Chatbot/commit/6b99ac27c0a3f7815a45c0f36bd75f2f5f487b47))
+
 # [1.3.0](https://github.com/kurtvandusen/React-Native-Easy-Chatbot/compare/v1.2.0...v1.3.0) (2022-12-01)
 
 
