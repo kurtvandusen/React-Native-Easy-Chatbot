@@ -1,3 +1,16 @@
+# [1.3.0-staging.2](https://github.com/kurtvandusen/React-Native-Easy-Chatbot/compare/v1.3.0-staging.1...v1.3.0-staging.2) (2022-12-03)
+
+
+### Bug Fixes
+
+* only cancel API when MessagesComponent unmounts ([5b5b2ef](https://github.com/kurtvandusen/React-Native-Easy-Chatbot/commit/5b5b2ef5561c3d397a2c629d133fd87312784a83))
+
+
+### Features
+
+* add validateStatus for status code < 500 ([ce4a6ae](https://github.com/kurtvandusen/React-Native-Easy-Chatbot/commit/ce4a6ae3ce3c3e0202c2688069c29eb2aa3cbc96))
+* cancel API requests when components unmount ([6b99ac2](https://github.com/kurtvandusen/React-Native-Easy-Chatbot/commit/6b99ac27c0a3f7815a45c0f36bd75f2f5f487b47))
+
 # [1.3.0-staging.1](https://github.com/kurtvandusen/React-Native-Easy-Chatbot/compare/v1.2.0...v1.3.0-staging.1) (2022-12-01)
 
 
