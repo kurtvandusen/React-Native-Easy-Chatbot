@@ -1,283 +1,102 @@
-export const context: string = `“Here!” cried Alice, quite forgetting in the flurry of the moment how
-large she had grown in the last few minutes, and she jumped up in such
-a hurry that she tipped over the jury-box with the edge of her skirt,
-upsetting all the jurymen on to the heads of the crowd below, and there
-they lay sprawling about, reminding her very much of a globe of
-goldfish she had accidentally upset the week before.
+// from https://en.wikipedia.org/wiki/Nintendo
 
-“Oh, I beg your pardon!” she exclaimed in a tone of great dismay, and
-began picking them up again as quickly as she could, for the accident
-of the goldfish kept running in her head, and she had a vague sort of
-idea that they must be collected at once and put back into the
-jury-box, or they would die.
+export const context: string = `1973-1978: Early video games and Color TV-Game
 
-“The trial cannot proceed,” said the King in a very grave voice, “until
-all the jurymen are back in their proper places—all,” he repeated
-with great emphasis, looking hard at Alice as he said so.
+The growing demand for Nintendo's products led Yamauchi to further expand the offices, for which he acquired the surrounding land and assigned the production of cards to the original Nintendo building. Meanwhile, Yokoi, Uemura, and new employees such as Genyo Takeda, continued to develop innovative products for the company. The Laser Clay Shooting System was released in 1973 and managed to surpass bowling in popularity. Though Nintendo's toys continued to gain popularity, the 1973 oil crisis caused both a spike in the cost of plastics and a change in consumer priorities that put essential products over pastimes, and Nintendo lost several billion yen.
 
-Alice looked at the jury-box, and saw that, in her haste, she had put
-the Lizard in head downwards, and the poor little thing was waving its
-tail about in a melancholy way, being quite unable to move. She soon
-got it out again, and put it right; “not that it signifies much,” she
-said to herself; “I should think it would be quite as much use in the
-trial one way up as the other.”
+In 1974, Nintendo released Wild Gunman, a skeet shooting arcade simulation consisting of a 16 mm image projector with a sensor that detects a beam from the player's light gun. Both the Laser Clay Shooting System and Wild Gunman were successfully exported to Europe and North America. However, Nintendo's production speeds were still slow compared to rival companies such as Bandai and Tomy, and their prices were high, which led to the discontinuation of some of their light gun products. The subsidiary Nintendo Leisure System Co., Ltd., which developed these products, was closed as a result of the economic impact dealt by the oil crisis.
 
-As soon as the jury had a little recovered from the shock of being
-upset, and their slates and pencils had been found and handed back to
-them, they set to work very diligently to write out a history of the
-accident, all except the Lizard, who seemed too much overcome to do
-anything but sit with its mouth open, gazing up into the roof of the
-court.
+Yamauchi, motivated by the successes of Atari and Magnavox with their video game consoles, acquired the Japanese distribution rights for the Magnavox Odyssey in 1974, and reached an agreement with Mitsubishi Electric to develop similar products between 1975 and 1978, including the first microprocessor for video games systems, the Color TV-Game series, and an arcade game inspired by Othello. During this period, Takeda developed the video game EVR Race,and Shigeru Miyamoto joined Yokoi's team with the responsibility of designing the casing for the Color TV-Game consoles. In 1978, Nintendo's research and development department was split into two facilities, Nintendo Research & Development 1 and Nintendo Research & Development 2, respectively managed by Yokoi and Uemura.
 
-“What do you know about this business?” the King said to Alice.
+Shigeru Miyamoto brought distinctive sources of inspiration, including the natural environment and regional culture of Sonobe, popular culture influences like Westerns and detective fiction, along with folk Shinto practices and family media. These would each be seen in most of Nintendo's major franchises which developed following Miyamoto's creative leadership.
 
-“Nothing,” said Alice.
+1979-1987: Game & Watch, arcade games, and Nintendo Entertainment System
+Further information: History of Game & Watch and History of Nintendo Entertainment System
 
-“Nothing whatever?” persisted the King.
+The Game & Watch, a Donkey Kong miniature arcade cabinet, and the NES
+Two key events in Nintendo's history occurred in 1979: its American subsidiary was opened in New York City, and a new department focused on arcade game development was created. In 1980, one of the first handheld video game systems, the Game & Watch, was created by Yokoi from the technology used in portable calculators. It became one of Nintendo's most successful products, with over 43.4 million units sold worldwide during its production period, and for which 59 games were made in total.
 
-“Nothing whatever,” said Alice.
+Nintendo entered the arcade video game market with Sheriff and Radar Scope, released in Japan in 1979 and 1980 respectively. Sheriff, also known as Bandido in some regions, marked the first original video game made by Nintendo, was published by Sega and developed by Genyo Takeda and Shigeru Miyamoto. While Radar Scope, rivaled Galaxian in Japanese arcades but failed to find an audience overseas and created a financial crisis for the company. To try to find a more successful game, they put Miyamoto in charge of their next arcade game design, leading to the release of Donkey Kong in 1981, one of the first platform video games that allowed the player character to jump. The character, Jumpman, would later become Mario and Nintendo's official mascot. Mario was named after Mario Segale, the landlord of Nintendo's offices in Tukwila, Washington. Donkey Kong was a financial success for Nintendo both in Japan and overseas, and led Coleco to fight Atari for licensing rights for porting to home consoles and personal computers.
 
-“That's very important,” the King said, turning to the jury. They were
-just beginning to write this down on their slates, when the White
-Rabbit interrupted: “Unimportant, your Majesty means, of course,” he
-said in a very respectful tone, but frowning and making faces at him as
-he spoke.
+In 1983, Nintendo opened a new production facility in Uji and was listed on the first section of the Tokyo Stock Exchange. Uemura, taking inspiration from the ColecoVision, began creating a new video game console that would incorporate a ROM cartridge format for video games as well as both a central processing unit and a picture processing unit. The Family Computer, or Famicom, was released in Japan in July 1983 along with three games adapted from their original arcade versions: Donkey Kong, Donkey Kong Jr. and Popeye. Its success was such that in 1984, it surpassed the market share held by Sega's SG-1000. At this time, Nintendo adopted a series of guidelines that involved the validation of each game produced for the Famicom before its distribution on the market, agreements with developers to ensure that no Famicom game would be adapted to other consoles within two years of its release, and restricting developers from producing more than five games per year for the Famicom.
 
-“Unimportant, of course, I meant,” the King hastily said, and went on
-to himself in an undertone,
+In the early 1980s, several video game consoles proliferated in the United States, as well as low-quality games produced by third-party developers, which oversaturated the market and led to the video game crash of 1983. Consequently, a recession hit the American video game industry, whose revenues went from over $3 billion to $100 million between 1983 and 1985. Nintendo's initiative to launch the Famicom in America was also impacted. To differentiate the Famicom from its competitors in America, Nintendo rebranded it as an entertainment system and its cartridges as Game Paks, and with a design reminiscent of a VCR. Nintendo implemented a lockout chip in the Game Paks for control on its third party library to avoid the market saturation that had occurred in the United States. The result is the Nintendo Entertainment System, or NES, which was released in North America in 1985. The landmark games Super Mario Bros. and The Legend of Zelda were produced by Miyamoto and Takashi Tezuka. Composer Koji Kondo reinforced the idea that musical themes could act as a complement to game mechanics rather than simply a miscellaneous element. Production of the NES lasted until 1995, and production of the Famicom lasted until 2003. In total, around 62 million Famicom and NES consoles were sold worldwide. During this period, Nintendo created a copyright infringement protection in the form of the Official Nintendo Seal of Quality, added to their products so that customers may recognize their authenticity in the market. By this time, Nintendo's network of electronic suppliers had extended to around thirty companies, including Ricoh (Nintendo's main source for semiconductors) and the Sharp Corporation.
 
-“important—unimportant—unimportant—important—” as if he were trying
-which word sounded best.
+1988-1992: Game Boy and Super Nintendo Entertainment System
+Further information: History of Game Boy and History of Super Nintendo Entertainment System
 
-Some of the jury wrote it down “important,” and some “unimportant.”
-Alice could see this, as she was near enough to look over their slates;
-“but it doesn't matter a bit,” she thought to herself.
+The Game Boy and Super NES
+In 1988, Gunpei Yokoi and his team at Nintendo R&D1 conceived the Game Boy, the first handheld video game console made by Nintendo. Nintendo released the Game Boy in 1989. In North America, the Game Boy was bundled with the popular third-party game Tetris after a difficult negotiation process with Elektronorgtechnica. The Game Boy was a significant success. In its first two weeks of sale in Japan, its initial inventory of 300,000 units sold out, and in the United States, an additional 40,000 units were sold on its first day of distribution. Around this time, Nintendo entered an agreement with Sony to develop the Super Famicom CD-ROM Adapter, a peripheral for the upcoming Super Famicom capable of playing CD-ROMs. However, the collaboration did not last as Yamauchi preferred to continue developing the technology with Philips, which would result in the CD-i, and Sony's independent efforts resulted in the creation of the PlayStation console.
 
-At this moment the King, who had been for some time busily writing in
-his note-book, cackled out “Silence!” and read out from his book, “Rule
-Forty-two. All persons more than a mile high to leave the court.”
+The first issue of Nintendo Power magazine, which had an annual circulation of 1.5 million copies in the United States, was published in 1988. In July 1989, Nintendo held the first Nintendo Space World trade show with the name Shoshinkai for the purpose of announcing and demonstrating upcoming Nintendo products. That year, the first World of Nintendo stores-within-a-store, which carried official Nintendo merchandise, were opened in the United States. According to company information, more than 25% of homes in the United States had an NES in 1989.
 
-Everybody looked at Alice.
+In the late 1980s, Nintendo's dominance slipped with the appearance of NEC's PC Engine and Sega's Mega Drive, 16-bit game consoles with improved graphics and audio compared to the NES. In response to the competition, Uemura designed the Super Famicom, which launched in 1990. The first batch of 300,000 consoles sold out in hours. The following year, as with the NES, Nintendo distributed a modified version of the Super Famicom to the United States market, titled the Super Nintendo Entertainment System. Launch games for the Super Famicom and Super NES include Super Mario World, F-Zero, Pilotwings, SimCity, and Gradius III. By mid-1992, over 46 million Super Famicom and Super NES consoles had been sold. The console's life cycle lasted until 1999 in the United States, and until 2003 in Japan.
 
-“I'm not a mile high,” said Alice.
+In March 1990, the first Nintendo World Championship was held, with participants from 29 American cities competing for the title of "best Nintendo player in the world". In June 1990, the subsidiary Nintendo of Europe was opened in Großostheim, Germany; in 1993, subsequent subsidiaries were established in the Netherlands (where Bandai had previously distributed Nintendo's products), France, the United Kingdom, Spain, Belgium, and Australia. In 1992, Nintendo acquired a majority stake in the Seattle Mariners baseball team, and sold most of its shares in 2016. Nintendo ceased manufacturing arcade games and systems in September 1992. In 1993, Star Fox was released, which marked an industry milestone by being the first video game to make use of the Super FX chip.
 
-“You are,” said the King.
+The proliferation of graphically violent video games, such as Mortal Kombat, caused controversy and led to the creation of the Interactive Digital Software Association and the Entertainment Software Rating Board, in whose development Nintendo collaborated during 1994. These measures also encouraged Nintendo to abandon the content guidelines it had enforced since the release of the NES. Commercial strategies implemented by Nintendo during this time include the Nintendo Gateway System, an in-flight entertainment service available for airlines, cruise ships and hotels, and the "Play It Loud!" advertising campaign for Game Boys with different-colored casings. The Advanced Computer Modeling graphics used in Donkey Kong Country for the Super NES and Donkey Kong Land for the Game Boy were technologically innovative, as was the Satellaview satellite modem peripheral for the Super Famicom, which allowed the digital transmission of data via a communications satellite in space.
 
-“Nearly two miles high,” added the Queen.
+1993-1998: Nintendo 64, Virtual Boy, and Game Boy Color
+Further information: History of Nintendo 64, History of Virtual Boy, and History of Game Boy Color
 
-“Well, I shan't go, at any rate,” said Alice: “besides, that's not a
-regular rule: you invented it just now.”
+The Nintendo 64, Virtual Boy, and Game Boy Color
+In mid-1993, Nintendo and Silicon Graphics announced a strategic alliance to develop the Nintendo 64. NEC, Toshiba, and Sharp also contributed technology to the console. The Nintendo 64 was marketed as one of the first consoles to be designed with 64-bit architecture. As part of an agreement with Midway Games, the arcade games Killer Instinct and Cruis'n USA were ported to the console. Although the Nintendo 64 was planned for release in 1995, the production schedules of third-party developers influenced a delay, and the console was released in June and September 1996 in Japan and the United States respectively, and in March 1997 in Europe. By the end of its production in 2002, around 33 million Nintendo 64 consoles were sold worldwide, and it is considered one of the most recognized video game systems in history. 388 games were produced for the Nintendo 64 in total, some of which - particularly Super Mario 64, The Legend of Zelda: Ocarina of Time, and GoldenEye 007 - have been distinguished as some of the greatest of all time.
 
-“It's the oldest rule in the book,” said the King.
+In 1995, Nintendo released the Virtual Boy, a console designed by Gunpei Yokoi with stereoscopic graphics. Critics were generally disappointed with the quality of the games and red-colored graphics, and complained of gameplay-induced headaches. The system sold poorly and was quietly discontinued. Amid the system's failure, Yokoi formally retired from Nintendo. In February 1996, Pocket Monsters Red and Green, known internationally as Pokémon Red and Blue, developed by Game Freak was released in Japan for the Game Boy, and established the popular Pokémon franchise.:191 The game went on to sell 31.37 million units, with the video game series exceeding a total of 300 million units in sales as of 2017. In 1997, Nintendo released the Rumble Pak, a plug-in device that connects to the Nintendo 64 controller and produces a vibration during certain moments of a game.
 
-“Then it ought to be Number One,” said Alice.
+In 1998, the Game Boy Color was released. In addition to backward compatibility with Game Boy games, the console's similar capacity to the NES resulted in select adaptations of games from that library, such as Super Mario Bros. Deluxe. Since then, over 118.6 million Game Boy and Game Boy Color consoles have been sold worldwide.
 
-The King turned pale, and shut his note-book hastily. “Consider your
-verdict,” he said to the jury, in a low, trembling voice.
+1999-2003: Game Boy Advance and GameCube
+Further information: History of Game Boy Advance and History of GameCube
 
-“There's more evidence to come yet, please your Majesty,” said the
-White Rabbit, jumping up in a great hurry; “this paper has just been
-picked up.”
+The Game Boy Advance and GameCube
+In May 1999, with the advent of the PlayStation 2, Nintendo entered an agreement with IBM and Panasonic to develop the 128-bit Gekko processor and the DVD drive to be used in Nintendo's next home console. Meanwhile, a series of administrative changes occurred in 2000, when Nintendo's corporate offices were moved to the Minami-ku neighborhood in Kyoto, and Nintendo Benelux was established to manage the Dutch and Belgian territories.
 
-“What's in it?” said the Queen.
+In 2001, two new Nintendo consoles were introduced: the Game Boy Advance, which was designed by Gwénaël Nicolas with stylistic departure from its predecessors, and the GameCube. During the first week of the Game Boy Advance's North American release in June 2001, over 500,000 units were sold, making it the fastest-selling video game console in the United States at the time. By the end of its production cycle in 2010, more than 81.5 million units had been sold worldwide. As for the GameCube, even with such distinguishing features as the miniDVD format of its games and Internet connectivity for a few games, its sales were lower than those of its predecessors, and during the six years of its production, 21.7 million units were sold worldwide. An innovative product developed by Nintendo during this time was the Nintendo e-Reader, a Game Boy Advance peripheral that allows the transfer of data stored on a series of cards to the console.
 
-“I haven't opened it yet,” said the White Rabbit, “but it seems to be a
-letter, written by the prisoner to—to somebody.”
+In 2002, the Pokémon Mini was released. Its dimensions were smaller than that of the Game Boy Advance and it weighed 70 grams, making it the smallest video game console in history. Nintendo collaborated with Sega and Namco to develop Triforce, an arcade board to facilitate the conversion of arcade titles to the GameCube. Following the European release of the GameCube in May 2002, Hiroshi Yamauchi announced his resignation as the president of Nintendo, and Satoru Iwata was selected by the company as his successor. Yamauchi would remain as advisor and director of the company until 2005, and he died in 2013. Iwata's appointment as president ended the Yamauchi succession at the helm of the company, a practice that had been in place since its foundation.
 
-“It must have been that,” said the King, “unless it was written to
-nobody, which isn't usual, you know.”
+In 2003, Nintendo released the Game Boy Advance SP, an improved version of the Game Boy Advance with a foldable case, an illuminated display, and a rechargeable battery. By the end of its production cycle in 2010, over 43.5 million units had been sold worldwide. Nintendo also released the Game Boy Player, a peripheral that allows Game Boy and Game Boy Advance games to be played on the GameCube.
 
-“Who is it directed to?” said one of the jurymen.
+2004-2009: Nintendo DS and Wii
+Further information: History of Nintendo DS and History of Wii
 
-“It isn't directed at all,” said the White Rabbit; “in fact, there's
-nothing written on the outside.” He unfolded the paper as he spoke,
-and added “It isn't a letter, after all: it's a set of verses.”
+The Nintendo DS and Wii
+In 2004, the last remnants of Nintendo's original headquarters was reportedly demolished. Later that year, Nintendo released the Nintendo DS, which featured such innovations as dual screens - one of which being a touchscreen - and wireless connectivity for multiplayer play. Throughout its lifetime, more than 154 million units were sold, making it the most successful handheld console and the second best-selling console in history. In 2005, Nintendo released the Game Boy Micro, the last system in the Game Boy line. Sales did not meet Nintendo's expectations, with 2.5 million units being sold by 2007. In mid-2005, the Nintendo World Store was inaugurated in New York City.
 
-“Are they in the prisoner's handwriting?” asked another of the jurymen.
+Nintendo's next home console was conceived in 2001, although development commenced in 2003, taking inspiration from the Nintendo DS. Nintendo also considered the relative failure of the GameCube, and instead opted to take a "blue ocean strategy" by developing a reduced performance console in contrast to the high-performance consoles of Sony and Microsoft to avoid directly competiting with them. The Wii was released in November 2006, with a total of 33 launch games. With the Wii, Nintendo sought to reach a broader demographic than its seventh-generation competitors, with the intention of also encompassing the "non-consumer" sector. To this end, Nintendo invested in a $200 million advertising campaign. The Wii's innovations include the Wii Remote controller, equipped with an accelerometer system and infrared sensors that allow it to detect its position in a three-dimensional environment with the aid of a sensor bar; the Nunchuk peripheral that includes an analog controller and an accelerometer; and the Wii MotionPlus expansion that increases the sensitivity of the main controller with the aid of gyroscopes. By 2016, more than 101 million Wii consoles had been sold worldwide, making it the most successful console of its generation, a distinction that Nintendo had not achieved since the 1990s with the Super NES.
 
-“No, they're not,” said the White Rabbit, “and that's the queerest
-thing about it.” (The jury all looked puzzled.)
+Several accessories were released for the Wii from 2007 to 2010, such as the Wii Balance Board, the Wii Wheel and the WiiWare download service. In 2009, Nintendo Iberica S.A. expanded its commercial operations to Portugal through a new office in Lisbon. By that year, Nintendo held a 68.3% share of the worldwide handheld gaming market. In 2010, Nintendo celebrated the 25th anniversary of Mario's debut appearance, for which certain allusive products were put on sale. The event included the release of Super Mario All-Stars 25th Anniversary Edition and special editions of the Nintendo DSi XL and Wii.
 
-“He must have imitated somebody else's hand,” said the King. (The jury
-all brightened up again.)
+2010-2016: Nintendo 3DS, Wii U, and mobile ventures
+Further information: History of Nintendo 3DS, History of Wii U, and History of Nintendo mobile games
 
-“Please your Majesty,” said the Knave, “I didn't write it, and they
-can't prove I did: there's no name signed at the end.”
+The Nintendo 3DS, the Wii U, and a mobile phone with Pokémon Go in the sign-up menu
+Following an announcement in March 2010, Nintendo released the Nintendo 3DS in 2011. The console produces stereoscopic effects without 3D glasses. By 2018, more than 69 million units had been sold worldwide;] the figure increased to 75 million by the start of 2019. In 2011, Nintendo celebrated the 25th anniversary of The Legend of Zelda with the orchestra concert tour The Legend of Zelda: Symphony of the Goddesses and the video game The Legend of Zelda: Skyward Sword.
 
-“If you didn't sign it,” said the King, “that only makes the matter
-worse. You must have meant some mischief, or else you'd have signed
-your name like an honest man.”
+In 2012 and 2013, two new Nintendo game consoles were introduced: the Wii U, with high-definition graphics and a GamePad controller with near-field communication technology, and the Nintendo 2DS, a version of the 3DS that lacks the clamshell design of Nintendo's previous handheld consoles and the stereoscopic effects of the 3DS. With 13.5 million units sold worldwide, the Wii U is the least successful video game console in Nintendo's history. In 2014, a new product line was released consisting of figures of Nintendo characters called amiibos.
 
-There was a general clapping of hands at this: it was the first really
-clever thing the King had said that day.
+On 25 September 2013, Nintendo announced its acquisition of a 28% stake in PUX Corporation, a subsidiary of Panasonic, for the purpose of developing facial, voice, and text recognition for its video games. Due to a 30% decrease in company income between April and December 2013, Iwata announced a temporary 50% cut to his salary, with other executives seeing reductions by 20%-30%. In January 2015, Nintendo ceased operations in the Brazilian market due in part to high import duties. This did not affect the rest of Nintendo's Latin American market due to an alliance with Juegos de Video Latinoamérica. Nintendo reached an agreement with NC Games for Nintendo's products to resume distribution in Brazil by 2017, and by September 2020, the Switch was released in Brazil.
 
-“That proves his guilt,” said the Queen.
+On 11 July 2015, Iwata died of bile duct cancer, and after a couple of months in which Miyamoto and Takeda jointly operated the company, Tatsumi Kimishima was named as Iwata's successor on 16 September 2015. As part of the management's restructuring, Miyamoto and Takeda were respectively named creative and technological advisors.
 
-“It proves nothing of the sort!” said Alice. “Why, you don't even know
-what they're about!”
+The financial losses caused by the Wii U, along with Sony's intention to release its video games to other platforms such as smart TVs, motivated Nintendo to rethink its strategy concerning the production and distribution of its properties. In 2015, Nintendo formalized agreements with DeNA and Universal Parks & Resorts to extend its presence to smart devices and amusement parks respectively. In March 2016, Nintendo's first mobile app for the iOS and Android systems, Miitomo, was released. Since then, Nintendo has produced other similar apps, such as Super Mario Run, Fire Emblem Heroes, Animal Crossing: Pocket Camp, Mario Kart Tour, and Pokémon Go, the last being developed by Niantic and having generated $115 million in revenue for Nintendo. The theme park area Super Nintendo World opened at Universal Studios Japan in 2020. In March 2016, the loyalty program My Nintendo replaced Club Nintendo.
 
-“Read them,” said the King.
+The NES Classic Edition was released in November 2016. The console is a version of the NES based on emulation, HDMI, and the Wii remote. Its successor, the Super NES Classic Edition, was released in September 2017. By October 2018, around ten million units of both consoles combined had been sold worldwide.
 
-The White Rabbit put on his spectacles. “Where shall I begin, please
-your Majesty?” he asked.
+2017-present: Nintendo Switch and expansion to other media
+Further information: History of Nintendo Switch
 
-“Begin at the beginning,” the King said gravely, “and go on till you
-come to the end: then stop.”
+The Nintendo Switch
+The Wii U's successor in the eighth generation of video game consoles, the Nintendo Switch, was released in March 2017. The Switch features a hybrid design as a home and handheld console, Joy-Con controllers that each contain an accelerometer and gyroscope, and the simultaneous wireless networking of up to eight consoles. To expand its library, Nintendo entered alliances with several third-party and independent developers; by February 2019, more than 1,800 Switch games had been released. Worldwide sales of the Switch exceeded 55 million units by March 2020. In April 2018, the Nintendo Labo line was released, consisting of cardboard accessories that interact with the Switch and the Joy-Con controllers. More than one million units of the Nintendo Labo Variety Kit were sold in its first year on the market.
 
-These were the verses the White Rabbit read:—
+In 2018, Shuntaro Furukawa replaced Kimishima as company president, and in 2019, Doug Bowser succeeded Nintendo of America president Reggie Fils-Aimé. In April 2019, Nintendo formed an alliance with Tencent to distribute the Nintendo Switch in China starting in December. In April 2020, ValueAct Capital Partners announced an acquisition of $1.1 billion in Nintendo stock purchases, giving them an overall stake of 2% in Nintendo. On 6 January 2020, hotel and restaurant development company Plan See Do announced that it would refurbish the former headquarters of Marufuku Nintendo Card Co. as a hotel, with plans to add 20 guest rooms, a restaurant, bar, and gym, with a planned opening date of mid 2021. The building belongs to Yamauchi Co., Ltd., an asset management company of Nintendo's founding family. It was further reported that the original 19th-century headquarters was apparently demolished and turned into a parking lot. Although the COVID-19 pandemic caused delays in the production and distribution of some of Nintendo's products, the situation "had limited impact on business results"; in May 2020, Nintendo reported a 75% increase in income compared to the previous fiscal year, mainly contributed by the Nintendo Switch Online service. In August 2020, Nintendo was named the richest company in Japan.
 
-“They told me you had been to her,
-    And mentioned me to him:
-She gave me a good character,
-    But said I could not swim.
+Nintendo announced plans in June 2021 to convert its former Uji Ogura plant, where it had previously made playing and hanafuda cards, into a museum for the company to be completed by the 2023 fiscal year. The building has been vacant since these functions were transferred to a new Uji plant in 2016.
 
-He sent them word I had not gone
-    (We know it to be true):
-If she should push the matter on,
-    What would become of you?
+Logo of Nintendo Pictures
+Nintendo is co-producing an animated film The Super Mario Bros. Movie alongside Universal Pictures and Illumination, with Miyamoto and Illumination CEO Chris Meledandri producing, set for release in April 2023. In 2021, Furukawa indicated Nintendo's plan to create more animated projects based on their work outside the Mario film, and by July, Melendandri joined the board of directors "as an independent and non-executive outside director", to help Nintendo produce further movies through his filmmaking experience, and Furukawa confirmed that work on other animated projects was currently underway. According to Furukawa, the company's expansion toward animated production is to keep " business thriving and growing", realizing the "need to create opportunities where even people who do not normally play on video game systems can come into contact with Nintendo characters". That day, Miyamoto said that " really came to understand the Nintendo point of view" and that "asking for input, as an expert with many years of experience in Hollywood, will be of great help to" Nintendo's transition into film production. Later, in July 2022, Nintendo acquired Dynamo Pictures, a Japanese CG company founded by Hiroshi Hirokawa on March 18, 2011. Dynamo had worked with Nintendo on digital shorts in the 2010s, including for the Pikmin series, and Nintendo said that Dynamo would continue their goal of expanding into animation. Following the completion of the acquisition in October 2022, Nintendo renamed Dynamo as Nintendo Pictures.
 
-I gave her one, they gave him two,
-    You gave us three or more;
-They all returned from him to you,
-    Though they were mine before.
+In February 2022, Nintendo announced the acquisition of SRD Co., Ltd. (Systems Research and Development) after 40 years, a major contributor of Nintendo's first-party games such as Donkey Kong and The Legend of Zelda until the 1990s, and then support studio since.
 
-If I or she should chance to be
-    Involved in this affair,
-He trusts to you to set them free,
-    Exactly as we were.
-
-My notion was that you had been
-    (Before she had this fit)
-An obstacle that came between
-    Him, and ourselves, and it.
-
-Don't let him know she liked them best,
-    For this must ever be
-A secret, kept from all the rest,
-    Between yourself and me.”
-
-
-“That's the most important piece of evidence we've heard yet,” said the
-King, rubbing his hands; “so now let the jury—”
-
-“If any one of them can explain it,” said Alice, (she had grown so
-large in the last few minutes that she wasn't a bit afraid of
-interrupting him,) “I'll give him sixpence. I don't believe there's
-an atom of meaning in it.”
-
-The jury all wrote down on their slates, “She doesn't believe there's
-an atom of meaning in it,” but none of them attempted to explain the
-paper.
-
-“If there's no meaning in it,” said the King, “that saves a world of
-trouble, you know, as we needn't try to find any. And yet I don't
-know,” he went on, spreading out the verses on his knee, and looking at
-them with one eye; “I seem to see some meaning in them, after all.
-“—said I could not swim—” you can't swim, can you?” he added, turning
-to the Knave.
-
-The Knave shook his head sadly. “Do I look like it?” he said. (Which he
-certainly did not, being made entirely of cardboard.)
-
-“All right, so far,” said the King, and he went on muttering over the
-verses to himself: “‘We know it to be true—' that's the jury, of
-course—‘I gave her one, they gave him two—' why, that must be what he
-did with the tarts, you know—”
-
-“But, it goes on ‘they all returned from him to you,'” said Alice.
-
-“Why, there they are!” said the King triumphantly, pointing to the
-tarts on the table. “Nothing can be clearer than that. Then
-again—‘before she had this fit—' you never had fits, my dear, I
-think?” he said to the Queen.
-
-“Never!” said the Queen furiously, throwing an inkstand at the Lizard
-as she spoke. (The unfortunate little Bill had left off writing on his
-slate with one finger, as he found it made no mark; but he now hastily
-began again, using the ink, that was trickling down his face, as long
-as it lasted.)
-
-“Then the words don't fit you,” said the King, looking round the
-court with a smile. There was a dead silence.
-
-“It's a pun!” the King added in an offended tone, and everybody
-laughed, “Let the jury consider their verdict,” the King said, for
-about the twentieth time that day.
-
-“No, no!” said the Queen. “Sentence first—verdict afterwards.”
-
-“Stuff and nonsense!” said Alice loudly. “The idea of having the
-sentence first!”
-
-“Hold your tongue!” said the Queen, turning purple.
-
-“I won't!” said Alice.
-
-“Off with her head!” the Queen shouted at the top of her voice. Nobody
-moved.
-
-“Who cares for you?” said Alice, (she had grown to her full size by
-this time.) “You're nothing but a pack of cards!”
-
-At this the whole pack rose up into the air, and came flying down upon
-her: she gave a little scream, half of fright and half of anger, and
-tried to beat them off, and found herself lying on the bank, with her
-head in the lap of her sister, who was gently brushing away some dead
-leaves that had fluttered down from the trees upon her face.
-
-“Wake up, Alice dear!” said her sister; “Why, what a long sleep you've
-had!”
-
-“Oh, I've had such a curious dream!” said Alice, and she told her
-sister, as well as she could remember them, all these strange
-Adventures of hers that you have just been reading about; and when she
-had finished, her sister kissed her, and said, “It was a curious
-dream, dear, certainly: but now run in to your tea; it's getting late.”
-So Alice got up and ran off, thinking while she ran, as well she might,
-what a wonderful dream it had been.
-
-
-But her sister sat still just as she left her, leaning her head on her
-hand, watching the setting sun, and thinking of little Alice and all
-her wonderful Adventures, till she too began dreaming after a fashion,
-and this was her dream:—
-
-First, she dreamed of little Alice herself, and once again the tiny
-hands were clasped upon her knee, and the bright eager eyes were
-looking up into hers—she could hear the very tones of her voice, and
-see that queer little toss of her head to keep back the wandering hair
-that would always get into her eyes—and still as she listened, or
-seemed to listen, the whole place around her became alive with the
-strange creatures of her little sister's dream.
-
-The long grass rustled at her feet as the White Rabbit hurried by—the
-frightened Mouse splashed his way through the neighbouring pool—she
-could hear the rattle of the teacups as the March Hare and his friends
-shared their never-ending meal, and the shrill voice of the Queen
-ordering off her unfortunate guests to execution—once more the pig-baby
-was sneezing on the Duchess's knee, while plates and dishes crashed
-around it—once more the shriek of the Gryphon, the squeaking of the
-Lizard's slate-pencil, and the choking of the suppressed guinea-pigs,
-filled the air, mixed up with the distant sobs of the miserable Mock
-Turtle.
-
-So she sat on, with closed eyes, and half believed herself in
-Wonderland, though she knew she had but to open them again, and all
-would change to dull reality—the grass would be only rustling in the
-wind, and the pool rippling to the waving of the reeds—the rattling
-teacups would change to tinkling sheep-bells, and the Queen's shrill
-cries to the voice of the shepherd boy—and the sneeze of the baby, the
-shriek of the Gryphon, and all the other queer noises, would change
-(she knew) to the confused clamour of the busy farm-yard—while the
-lowing of the cattle in the distance would take the place of the Mock;/
-Turtle's heavy sobs.
-
-Lastly, she pictured to herself how this same little sister of hers
-would, in the after-time, be herself a grown woman; and how she would
-keep, through all her riper years, the simple and loving heart of her
-childhood: and how she would gather about her other little children,
-and make their eyes bright and eager with many a strange tale,
-perhaps even with the dream of Wonderland of long ago: and how she
-would feel with all their simple sorrows, and find a pleasure in all
-their simple joys, remembering her own child-life, and the happy summer
-days.`;
+In May 2022, it was reported by Bloomberg that Saudi Arabia's Public Investment Fund had purchased a 5% stake in Nintendo.`;

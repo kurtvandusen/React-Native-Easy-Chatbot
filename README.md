@@ -42,6 +42,10 @@ In the root directory, locate the app.config.js file. Edit the ` extra: {}` sect
 
 Simply change your baseURL to use a different model.
 
+## Optional - Change Question Answering Context  
+
+Update [context.ts](./app/features/messages/context.ts) with the text string of your choice. The chatbot will draw all answers from this text only. The current example context file contains text about the history of Nintendo Co, Ltd. drawn from [Wikipedia](https://en.wikipedia.org/wiki/Nintendo)
+
 ## Features
 
 - The API called using Redux Saga for clear, testable async logic
