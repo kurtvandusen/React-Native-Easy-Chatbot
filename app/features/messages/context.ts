@@ -1,3 +1,5 @@
+// from https://en.wikipedia.org/wiki/Nintendo
+
 export const context: string = `1973-1978: Early video games and Color TV-Game
 
 The Color TV-Game
