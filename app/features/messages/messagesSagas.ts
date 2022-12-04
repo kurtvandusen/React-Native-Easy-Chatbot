@@ -1,3 +1,4 @@
+import Constants from "expo-constants";
 import { all, put, takeEvery } from "redux-saga/effects";
 
 import { getReply, createReplyMessage } from "./messagesHelpers";
@@ -11,8 +12,9 @@ function* sendMessageStart({ payload: message }) {
     const replyMessages = yield getReply(message);
     yield put({ type: setMessages, payload: replyMessages });
   } catch (error) {
-    const errorMessage = "An error has occured. " + error?.toString;
-    yield put({ type: setMessages, payload: createReplyMessage(errorMessage) })
+    const errorMessage: string =
+      Constants.expoConfig.extra?.messagesErrorMessage + error?.toString;
+    yield put({ type: setMessages, payload: createReplyMessage(errorMessage) });
   }
   yield put({ type: setIsTyping, payload: false });
 }
