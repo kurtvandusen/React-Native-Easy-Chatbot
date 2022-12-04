@@ -1,3 +1,16 @@
+# [1.5.0-staging.1](https://github.com/kurtvandusen/React-Native-Easy-Chatbot/compare/v1.4.0...v1.5.0-staging.1) (2022-12-04)
+
+
+### Bug Fixes
+
+* remove no-irregular-whitespace ([a37d059](https://github.com/kurtvandusen/React-Native-Easy-Chatbot/commit/a37d059cd8cf1ef7aeef833f19a7a633cd349e96))
+
+
+### Features
+
+* change context to Nintendo history ([c91f1b3](https://github.com/kurtvandusen/React-Native-Easy-Chatbot/commit/c91f1b34fa3ced7dc5984aea8bb46f8a25192f2d))
+* change context to Nintendo history ([415f63f](https://github.com/kurtvandusen/React-Native-Easy-Chatbot/commit/415f63f363bcf80ab446a13dcc02b0962e4c7f7c))
+
 # [1.4.0](https://github.com/kurtvandusen/React-Native-Easy-Chatbot/compare/v1.3.0...v1.4.0) (2022-12-03)
 
 
