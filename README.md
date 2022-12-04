@@ -53,5 +53,4 @@ Simply change your baseURL to use a different model.
 - Semantic Release to bump versions and automatically generate [CHANGELOG.md](./CHANGELOG.md)
 - Github Actions for CI/CD
 - [Gifted Chat](https://github.com/FaridSafi/react-native-gifted-chat) for Material Design and accesability
-
-
+- Reusable chat component
