@@ -1,8 +1,8 @@
 import { IMessage } from "react-native-gifted-chat";
 
+import { context } from "../../../assets/context";
 import { api } from "../../services/api";
 import { newId } from "../../utils/newId";
-import { context } from "./context";
 import { chatbotUser } from "./messagesSlice";
 
 export const createReplyMessage = (reply: string) => {
