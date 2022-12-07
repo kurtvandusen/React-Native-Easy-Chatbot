@@ -14,6 +14,20 @@ Based on:
 - [Redux-Saga](https://redux-saga.js.org/) Async middleware for Redux
 - [Ignite from Infinite Red](https://github.com/infinitered/ignite) React Native Boilerplate
 
+## Features
+
+- The API is called using Redux-Saga for clear, testable async logic
+- Axios with Axios-Retry for data fetching
+- API error handling
+- React Error Boundary
+- ESLint and Prettier to standarize formating
+- Husky for conventional commits
+- Jest for unit testing
+- Semantic Release to bump versions and automatically generate [CHANGELOG.md](./CHANGELOG.md)
+- Github Actions for CI/CD
+- [Gifted Chat](https://github.com/FaridSafi/react-native-gifted-chat) for Material Design and accesability
+- Reusable chat component
+
 ## Installation 
 
 ```sh
@@ -44,17 +58,4 @@ Simply change your baseURL to use a different model.
 
 ## Optional - Change Question Answering Context  
 
-Update [context.ts](./app/features/messages/context.ts) with the text string of your choice. The chatbot will draw all answers from this text only. The current example context file contains text about the history of Nintendo Co, Ltd. drawn from [Wikipedia](https://en.wikipedia.org/wiki/Nintendo)
-
-## Features
-
-- The API called using Redux Saga for clear, testable async logic
-- Axios with Axios-Retry for data fetching
-- API error handling
-- React Error Boundary
-- ESLint and Prettier to standarize formating
-- Jest for unit testing
-- Semantic Release to bump versions and automatically generate [CHANGELOG.md](./CHANGELOG.md)
-- Github Actions for CI/CD
-- [Gifted Chat](https://github.com/FaridSafi/react-native-gifted-chat) for Material Design and accesability
-- Reusable chat component
+Update [context.ts](./assets/context.ts) with the text string of your choice. The chatbot will draw all answers from this text only. The current example context file contains text about the history of Nintendo Co, Ltd. drawn from [Wikipedia](https://en.wikipedia.org/wiki/Nintendo)
