@@ -59,3 +59,7 @@ Simply change your baseURL to use a different model.
 ## Optional - Change Question Answering Context  
 
 Update [context.ts](./assets/context.ts) with the text string of your choice. The chatbot will draw all answers from this text only. The current example context file contains text about the history of Nintendo Co, Ltd. drawn from [Wikipedia](https://en.wikipedia.org/wiki/Nintendo)
+
+## Unit Testing Sagas  
+
+[Here is an example of testing the saga async logic using Jest](./app/features/messages/__tests__/MessagesSagas.ts)
