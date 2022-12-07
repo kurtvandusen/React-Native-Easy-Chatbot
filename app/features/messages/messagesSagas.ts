@@ -1,5 +1,5 @@
 import Constants from "expo-constants";
-import { all, put, takeEvery } from "redux-saga/effects";
+import { put, takeEvery, call } from "redux-saga/effects";
 
 import { getReply, createReplyMessage } from "./messagesHelpers";
 import { setMessages, sendMessage, setIsTyping } from "./messagesSlice";
@@ -9,7 +9,7 @@ function* sendMessageStart({ payload: message }) {
   yield put({ type: setIsTyping, payload: true });
   yield put({ type: setMessages, payload: message });
   try {
-    const replyMessages = yield getReply(message);
+    const replyMessages = yield call(getReply, message);
     yield put({ type: setMessages, payload: replyMessages });
   } catch (error) {
     const errorMessage: string =
@@ -20,13 +20,8 @@ function* sendMessageStart({ payload: message }) {
 }
 
 // Our watcher Sagas
-function* watchSendMessage() {
+function* messagesSaga() {
   yield takeEvery(sendMessage, sendMessageStart);
 }
 
-// Combine watcher Sagas (only needed if more than one)
-function* messagesSaga() {
-  yield all([watchSendMessage()]);
-}
-
-export { messagesSaga };
+export { messagesSaga, sendMessageStart };
